@@ -1,4 +1,4 @@
-﻿using Singleton_Dizayn_Pattern.LAB;
+﻿using Singleton_Design_Pattern.LAB;
 using System;
 using System.Collections.Generic;
 using System.Linq;

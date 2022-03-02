@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AE08E6B7-C2FF-4EEC-9897-464654500DBD}</ProjectGuid>
+    <ProjectGuid>{014C2FF6-0216-4A60-BE85-146B96827A72}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Singleton_Dizayn_Pattern</RootNamespace>
-    <AssemblyName>Singleton_Dizayn_Pattern</AssemblyName>
+    <RootNamespace>Singleton_Design_Pattern1</RootNamespace>
+    <AssemblyName>Singleton_Design_Pattern1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,6 +51,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

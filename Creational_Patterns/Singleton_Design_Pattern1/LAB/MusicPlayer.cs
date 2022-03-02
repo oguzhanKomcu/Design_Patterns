@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Singleton_Design_Pattern.LAB
+namespace Singleton_Design_Pattern1.LAB
 {
-    public  class MusicPlayer
+    public class MusicPlayer
     {
 
         //In this pattern, we do not want the user to create an object at her own request in any way.We want the user to create an object only once, as she will use it all the time.
@@ -20,7 +20,7 @@ namespace Singleton_Design_Pattern.LAB
         //Why did we make our field static here. Because I can no longer access my elements and methods in my class by creating objects, but I can access my static methods without creating objects directly.
         //Well, if my class elements that I will use in static are not static, can I access them? NO .
         //Because when the class is called, my static elements are created directly in the "heap" area. For this reason, the elements to be used must be created directly in the heap area.
-        private static  MusicPlayer _instance;
+        private static MusicPlayer _instance;
 
         //I called my class and accessed my static method directly.
         public static MusicPlayer Instance()
@@ -34,7 +34,7 @@ namespace Singleton_Design_Pattern.LAB
 
             return _instance;
 
-            
+
         }
 
         //Now I have created my object and I can assign a value to the class element and method I want and use it.
@@ -43,7 +43,7 @@ namespace Singleton_Design_Pattern.LAB
             return "Music is playing.";
         }
 
-      
+
 
 
 
