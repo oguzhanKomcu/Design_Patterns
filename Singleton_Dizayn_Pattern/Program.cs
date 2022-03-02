@@ -17,7 +17,7 @@ namespace Singleton_Design_Pattern
             //I accessed my static "Instance" method by calling my class and assigned it to my variable named "test". Now I have created an object.
             var test = MusicPlayer.Instance();
 
-            //Here, I accessed and used my method in my created object.
+            //Here, I accessed and used my method in my created object..
             Console.WriteLine($"{ test.Player()}");
             Console.ReadKey();
 
