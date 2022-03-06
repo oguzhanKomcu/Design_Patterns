@@ -16,7 +16,7 @@ namespace Singleton_Design_Pattern1.LAB
         private static Bike _bikeobject;
 
 
-        //We can apply the Singleton Design Pattern by using the get block of our Static property..
+        //We can apply the Singleton Design Pattern by using the get block of our Static property.
         public static Bike BikeObject
         {
 
