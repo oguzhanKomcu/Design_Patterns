@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Facade_Pattern
+namespace Facade__Pattern
 {
-    public class Bike_Builder 
+    public class Bike_Builder
     {
         public Bike_Builder(Gear_And_Chain gear_And_Chain, BicycleRim rim, BikeFrame frame)
         {
@@ -19,10 +19,10 @@ namespace Facade_Pattern
         public BicycleRim Rim { get; set; }
         public BikeFrame Frame { get; set; }
 
-      
+
         public Bicycle Create()
         {
-            return new Bicycle(Gear_And_Chain,Rim,Frame);
+            return new Bicycle(Gear_And_Chain, Rim, Frame);
         }
 
 

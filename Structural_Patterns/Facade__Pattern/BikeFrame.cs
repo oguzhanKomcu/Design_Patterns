@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Facade_Pattern
+namespace Facade__Pattern
 {
-    public class BicycleRim 
+    public class BikeFrame
     {
-        public string Inc { get; set; }
+        public string Size { get; set; }
         public string Material_Type { get; set; }
-
 
     }
 }
