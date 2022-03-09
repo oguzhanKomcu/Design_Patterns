@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A95E6A19-1030-4B08-A995-98C46D3564A1}</ProjectGuid>
+    <ProjectGuid>{C31BC5B9-B767-43A3-A9A6-D453F7A9FF44}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Proxy_Pattern1</RootNamespace>
-    <AssemblyName>Proxy_Pattern1</AssemblyName>
+    <RootNamespace>Facade_Pattern</RootNamespace>
+    <AssemblyName>Facade_Pattern</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IInformation_Profile.cs" />
-    <Compile Include="ProfileProxy.cs" />
-    <Compile Include="Profile_Owner.cs" />
+    <Compile Include="Bicycle.cs" />
+    <Compile Include="BicycleRim.cs" />
+    <Compile Include="BikeFrame.cs" />
+    <Compile Include="Bike_Builder.cs" />
+    <Compile Include="FacadeManufacturer.cs" />
+    <Compile Include="Gear_And_Chain.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
