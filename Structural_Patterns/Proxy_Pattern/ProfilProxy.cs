@@ -26,7 +26,7 @@ namespace Proxy_Pattern
             this.password = password;
         }
 
-        //If the object is created here, I prevent it from being created again.
+        //If the object is created here, I prevent it from being created again...
 
         public void ShowProfil()
         {
