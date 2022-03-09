@@ -11,7 +11,7 @@ namespace Facade_Pattern
         //I created my class that will combine and create my objects.
         //In this way, I will have produced my objects from one place, without complexity.
         // Whenever the function of these systems is needed, we will have to code for a long time.
-        // Therefore, it will be a more reasonable and simple task to build our Facade class,
+        // Therefore, it will be a more reasonable and simple task to build our Facade class
         // which we will insert between the client and the subsystem.
 
 
