@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C31BC5B9-B767-43A3-A9A6-D453F7A9FF44}</ProjectGuid>
+    <ProjectGuid>{F15453CE-D426-4AFA-9576-97C3CE12F27B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Facade_Pattern</RootNamespace>
-    <AssemblyName>Facade_Pattern</AssemblyName>
+    <RootNamespace>Flyweight_Design_Pattern</RootNamespace>
+    <AssemblyName>Flyweight_Design_Pattern</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bicycle.cs" />
-    <Compile Include="BicycleRim.cs" />
-    <Compile Include="BikeFrame.cs" />
-    <Compile Include="Bike_Builder.cs" />
-    <Compile Include="FacadeManufacturer.cs" />
-    <Compile Include="Gear_And_Chain.cs" />
+    <Compile Include="EquipmentFactory.cs" />
+    <Compile Include="Headset.cs" />
+    <Compile Include="Equipment.cs" />
+    <Compile Include="Computer_Equipment.cs" />
+    <Compile Include="Keyboard.cs" />
+    <Compile Include="Mouse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
