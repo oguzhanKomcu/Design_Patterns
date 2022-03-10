@@ -32,9 +32,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight_Design_Pattern", "Structural_Patterns\Flyweight_Design_Pattern\Flyweight_Design_Pattern.csproj", "{F15453CE-D426-4AFA-9576-97C3CE12F27B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral_Patterns", "Behavioral_Patterns", "{10745606-4276-4495-9FCF-AE66FC290967}"
-	ProjectSection(SolutionItems) = preProject
-		ReadMe.md = ReadMe.md
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain_of_Responsibility", "Behavioral_Patterns\Chain_of_Responsibility\Chain_of_Responsibility.csproj", "{D750481A-84E7-449F-BCA6-89E4A5F0B00C}"
 EndProject

@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apprentice.cs" />
+    <Compile Include="Problem.cs" />
+    <Compile Include="Journeyman.cs" />
+    <Compile Include="Master.cs" />
+    <Compile Include="ProblemSolverEmployeeBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
