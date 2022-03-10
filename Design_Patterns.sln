@@ -31,6 +31,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade__Pattern", "Structur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight_Design_Pattern", "Structural_Patterns\Flyweight_Design_Pattern\Flyweight_Design_Pattern.csproj", "{F15453CE-D426-4AFA-9576-97C3CE12F27B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral_Patterns", "Behavioral_Patterns", "{10745606-4276-4495-9FCF-AE66FC290967}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain_of_Responsibility", "Behavioral_Patterns\Chain_of_Responsibility\Chain_of_Responsibility.csproj", "{D750481A-84E7-449F-BCA6-89E4A5F0B00C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +92,10 @@ Global
 		{F15453CE-D426-4AFA-9576-97C3CE12F27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F15453CE-D426-4AFA-9576-97C3CE12F27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F15453CE-D426-4AFA-9576-97C3CE12F27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D750481A-84E7-449F-BCA6-89E4A5F0B00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D750481A-84E7-449F-BCA6-89E4A5F0B00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D750481A-84E7-449F-BCA6-89E4A5F0B00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D750481A-84E7-449F-BCA6-89E4A5F0B00C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +113,7 @@ Global
 		{9E9F30FE-A59C-47F8-AB82-58F4F61D7115} = {6C684262-1DD3-4AF3-A6DE-7B3D2C2238C6}
 		{D613964F-0DAC-49B6-B1AC-87E7BD6A24AE} = {6C684262-1DD3-4AF3-A6DE-7B3D2C2238C6}
 		{F15453CE-D426-4AFA-9576-97C3CE12F27B} = {6C684262-1DD3-4AF3-A6DE-7B3D2C2238C6}
+		{D750481A-84E7-449F-BCA6-89E4A5F0B00C} = {10745606-4276-4495-9FCF-AE66FC290967}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27914C2F-2242-4208-A01C-EEA1986870B6}
