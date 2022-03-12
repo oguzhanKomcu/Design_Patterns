@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Builder\TelephoneBuilder.cs" />
-    <Compile Include="Interface\ITelephoneBuilder.cs" />
+    <Compile Include="Interface\IBuilder.cs" />
     <Compile Include="Model\Telephone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

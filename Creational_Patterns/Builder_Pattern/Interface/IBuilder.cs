@@ -9,6 +9,8 @@ namespace Builder_Pattern.Interface
 {
     public interface IBuilder
     {
+      
+
         //I created my set methods in my interface. In this way, I can assign a value.
 
         IBuilder Set_Model(string model);
