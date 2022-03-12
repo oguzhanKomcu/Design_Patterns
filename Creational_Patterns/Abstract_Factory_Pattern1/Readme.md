@@ -24,14 +24,18 @@ Abstract Factory provides interface to create objects from each class of product
 
 <img src="https://sourcemaking.com/files/v2/content/patterns/Abstract_Factory.png" width="600" height="400">
 
+## Diagram of my example I made.
+<img src="https://user-images.githubusercontent.com/96787308/158037752-013a6dfb-33e8-428f-87ba-6fb2e6ba7de9.png" width="600" height="400">
+
+
 
 # How is it applied ?
 
-- Abstract Product , it is the abstract class of the products to be produced. It carries all member structures in certain products as signatures and implements it into Concrete Product structures. [GitHub Pages](https://github.com/oguzhanKomcu/CSharp_OOP_Fundamentals/blob/master/CLASS/Bike.cs).
+- Abstract Product , it is the abstract class of the products to be produced. It carries all member structures in certain products as signatures and implements it into Concrete Product structures. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Abstract_Factory_Pattern1/ModelInterface).
 
-- Concrete Product are the actual concrete classes of the product family the client wants to produce.[GitHub Pages](https://github.com/oguzhanKomcu/CSharp_OOP_Fundamentals/blob/master/CLASS/Bike.cs).
+- Concrete Product are the actual concrete classes of the product family the client wants to produce.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Abstract_Factory_Pattern1/Model).
  
-- Abstract Factory is the structure that provides an interface to the factory classes that will create the product family.[GitHub Pages](https://github.com/oguzhanKomcu/CSharp_OOP_Fundamentals/blob/master/CLASS/Bike.cs).
+- Abstract Factory is the structure that provides an interface to the factory classes that will create the product family.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Abstract_Factory_Pattern1/Factory).
 
 - Concrete Factory is the factories that make up the main product family. [GitHub Pages](https://github.com/oguzhanKomcu/CSharp_OOP_Fundamentals/blob/master/CLASS/Bike.cs).
 
