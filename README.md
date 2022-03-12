@@ -21,11 +21,11 @@ Design Patterns exist to help us developers. They allow us to implement tried an
 
 According to the design pattern reference book Design Patterns - Elements of Reusable Object-Oriented Software, there are 23 design patterns that can be classified into three categories: Creative, Structural, and Behavioral patterns.
  
-- Creational Design Patterns : These design patterns provide a way to create objects while hiding the creation logic, rather than instantiating objects directly using new operator. This gives program more flexibility in deciding which objects need to be created for a given use case. Here I gave examples of patterns belonging to the category of Creational. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns)
+- ***Creational Design Patterns*** : These design patterns provide a way to create objects while hiding the creation logic, rather than instantiating objects directly using new operator. This gives program more flexibility in deciding which objects need to be created for a given use case. Here I gave examples of patterns belonging to the category of Creational. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns)
 
-- Structural Design Patterns : These design patterns concern class and object composition. Concept of inheritance is used to compose interfaces and define ways to compose objects to obtain new functionalities.Here I gave examples of patterns belonging to the Structural category. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Structural_Patterns)
+- ***Structural Design Patterns*** : These design patterns concern class and object composition. Concept of inheritance is used to compose interfaces and define ways to compose objects to obtain new functionalities.Here I gave examples of patterns belonging to the Structural category. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Structural_Patterns)
  
-- Behavioral Design Patterns : These design patterns are specifically concerned with communication between objects.Here I gave examples of patterns belonging to the Behavioral category. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Behavioral_Patterns)
+- ***Behavioral Design Patterns*** : These design patterns are specifically concerned with communication between objects.Here I gave examples of patterns belonging to the Behavioral category. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Behavioral_Patterns)
 
 
 ## Elements of the Design Pattern
