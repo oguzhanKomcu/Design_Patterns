@@ -9,6 +9,11 @@ The advantage of the singleton design pattern is that it saves memory as objects
 
 <img src="https://www.tutorialspoint.com/design_pattern/images/singleton_pattern_uml_diagram.jpg" width="400" height="300">
 
+## Diagram of my example I made.
+<img src="https://user-images.githubusercontent.com/96787308/158038797-f61978ef-2048-4a6a-9fc6-f31c45b4329b.png" width="600" height="400">
+
+
+
 **There are basically three steps for a class to conform to the singleton design pattern;**
 - Constructor must be private. This operation prevents the creation of objects with new.
 - A static member of the same type as the Class is created.
