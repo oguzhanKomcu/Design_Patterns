@@ -11,6 +11,10 @@
  
 <img src="https://www.dofactory.com/img/diagrams/net/factory.png" width="500" height="250">
 
+## Diagram of my example I made.
+
+<img src="https://user-images.githubusercontent.com/96787308/158038958-9fdaeca0-e12e-4402-8a4f-0d4ddffc74e8.png" width="500" height="400">
+
 # How is it applied?
 
 - All subclasses must inherit from the same parent class. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Factory_Method_Pattern/LAB/Interface/IFurniture.cs)
