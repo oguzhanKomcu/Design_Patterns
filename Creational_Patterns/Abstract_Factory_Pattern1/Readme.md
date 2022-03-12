@@ -37,6 +37,9 @@ Abstract Factory provides interface to create objects from each class of product
  
 - Abstract Factory is the structure that provides an interface to the factory classes that will create the product family.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Abstract_Factory_Pattern1/Factory).
 
-- Concrete Factory is the factories that make up the main product family. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Abstract_Factory_Pattern1/Factory).
+-In concrete classes that inherit from the [ISPEED](github.com/cobanov) interface, I have specified the speed relative to the tools.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Abstract_Factory_Pattern1/Speed).
 
+- My factories are the factories that make up the main product family. Here I created an "ISPEED" type method to create an object from its class according to its speed. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Abstract_Factory_Pattern1/Factory).
+
+- In my latest "Program" class I created a console applet for this entire build. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Abstract_Factory_Pattern1/Program.cs).
 
