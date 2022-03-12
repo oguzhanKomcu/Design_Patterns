@@ -37,6 +37,6 @@ Abstract Factory provides interface to create objects from each class of product
  
 - Abstract Factory is the structure that provides an interface to the factory classes that will create the product family.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Abstract_Factory_Pattern1/Factory).
 
-- Concrete Factory is the factories that make up the main product family. [GitHub Pages](https://github.com/oguzhanKomcu/CSharp_OOP_Fundamentals/blob/master/CLASS/Bike.cs).
+- Concrete Factory is the factories that make up the main product family. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Abstract_Factory_Pattern1/Factory).
 
 
