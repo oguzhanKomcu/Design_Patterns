@@ -17,9 +17,20 @@ In some cases, the interface of a toolkit or class library cannot be used becaus
 
 ## UML model of Singleton Design Pattern
 
-<img src="https://www.bayramucuncu.com/wp-content/uploads/2013/05/Adapter.png" width="400" height="300">
+<img src="https://www.bayramucuncu.com/wp-content/uploads/2013/05/Adapter.png" width="500" height="300">
 
 ## Diagram of my example I made.
-<img src="https://user-images.githubusercontent.com/96787308/158055105-9278bc96-ca2f-48cc-b3c3-e7fc3f8f95d2.png" width="600" height="400">
+<img src="https://user-images.githubusercontent.com/96787308/158055105-9278bc96-ca2f-48cc-b3c3-e7fc3f8f95d2.png" width="500" height="600">
+
+# How is it applied ?
+
+-I created classes to receive "Email", "sms" and "CustomerRecord". While my "Email" and "sms" classes can inherit from the [INotification](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Interface/INotification.cs) interface, my "CustomerRecord" class did not inherit from the "INotification" interface because it did not do the same thing. Here I need to create an adapter class for it to do things collaboratively. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Structural_Patterns/Adapter_Pattern/Model).
+
+- I created "SendNotification" class to send. I will do all my sending operations with this class. The "Send()" method in this class accepts only [INotification](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Interface/INotification.cs) type objects.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Adapter/SendNotification.cs).
+ 
+- I wrote an adapter class named [PushNotificationAdepter](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Adapter/PushNotificationAdepter.cs).for the CustomerRecord class. This class takes a class of type "CustomerRecord" from the outside and is made suitable for the "INotification" interface.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Model/CustomerRecord.cs).
+
+- I made the latest operations for the Client in the Console application.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Program.cs).
+
 
 
