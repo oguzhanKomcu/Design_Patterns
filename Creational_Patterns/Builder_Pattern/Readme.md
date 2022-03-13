@@ -23,3 +23,16 @@ The main advantages of Builder Pattern are as follows:
 ## Diagram of my example I made.
 
 <img src="https://user-images.githubusercontent.com/96787308/158039138-b645c137-18a6-450b-800a-bbb6164d36d9.png" width="600" height="400">
+
+
+# How is it applied ?
+
+- Telephone is our object that we want to get as a result of the build. If you examine the schematic, it is produced by the ConcreteBuilder class. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Model/Telephone.cs).
+
+- As you can see, "TelephoneBuilder" creates the object we call Telephone. It is the class that provides the basic features and hardware of the phone to be created.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Builder/TelephoneBuilder.cs).
+ 
+- IBuilder provides the necessary interface for building the phone object. Notice that there is an inherited situation with the TelephoneBuilder object.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Builder_Pattern/Interface).
+
+-As a result of our design, it responds to the object production request by the Client through a Builder reference.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Program.cs).
+
+
