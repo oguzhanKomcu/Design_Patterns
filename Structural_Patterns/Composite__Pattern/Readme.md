@@ -42,5 +42,5 @@ If the developer has to use a collection of objects of the same type or differen
  
 - It is a single Component object, which is the most basic element in the tree structure and does not contain sub-breaks. That is, it refers to the simple object.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Composite__Pattern/SUB_AUTHORITY.cs).
 
--I created a console application as a result of our design.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Composite__Pattern/Program.cs).
+- I created a console application as a result of our design.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Composite__Pattern/Program.cs).
 
