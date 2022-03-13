@@ -28,7 +28,7 @@ In some cases, the interface of a toolkit or class library cannot be used becaus
 
 - I created "SendNotification" class to send. I will do all my sending operations with this class. The "Send()" method in this class accepts only [INotification](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Interface/INotification.cs) type objects.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Adapter/SendNotification.cs).
  
-- I wrote an adapter class named [PushNotificationAdepter](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Adapter/PushNotificationAdepter.cs).for the CustomerRecord class. This class takes a class of type "CustomerRecord" from the outside and is made suitable for the "INotification" interface.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Model/CustomerRecord.cs).
+- I wrote an adapter class named [PushNotificationAdepter](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Adapter/PushNotificationAdepter.cs) for the CustomerRecord class. This class takes a class of type "CustomerRecord" from the outside and is made suitable for the "INotification" interface.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Model/CustomerRecord.cs).
 
 - I made the latest operations for the Client in the Console application.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Program.cs).
 
