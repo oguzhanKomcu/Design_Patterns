@@ -33,6 +33,6 @@ The main advantages of Builder Pattern are as follows:
  
 - IBuilder provides the necessary interface for building the phone object. Notice that there is an inherited situation with the TelephoneBuilder object.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Builder_Pattern/Interface).
 
--As a result of our design, it responds to the object production request by the Client through a Builder reference.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Program.cs).
+- As a result of our design, it responds to the object production request by the Client through a Builder reference.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Program.cs).
 
 
