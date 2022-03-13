@@ -1,5 +1,8 @@
 # Singleton Design Pattern
 
+<img src="https://treewebsolutions.com/uploads/article/65/the-singleton-pattern-in-php_ys3fRymTJ-TCrLVu.png" width="400" height="200">
+
+
 The singleton design pattern ensures that only one instance of a given object exists during the lifetime of a program. If the object has been created, this pattern points to the reference of this object instead of a new creation. At the same time, this pattern aims to access the single created object at a global level from outside the relevant class. Since the singleton pattern requires the creation of only one object, the object must be created somewhere in the relevant class. This is possible with a static property or a static method. This static method will return the object created inside the class itself as a return value. This object is created inside the static method or property and assigned to the private element of the class. To access this singularly created object, it will be sufficient to return the reference of this private element.
 
 The advantage of the singleton design pattern is that it saves memory as objects are not created on every request. Only a single instance is used repeatedly.
