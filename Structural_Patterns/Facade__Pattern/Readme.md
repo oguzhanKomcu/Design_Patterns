@@ -35,6 +35,6 @@ The facade pattern is implemented when a segment of the client community needs a
 
 - I've created a class that combines subclasses.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/Bike_Builder.cs).
  
--I created the subclasses that make up my bike. [Bicycle Rim](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/BicycleRim.cs) , [Bike Frame](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/BikeFrame.cs) , [Gear_And_Chain](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/Gear_And_Chain.cs) .
+- I created the subclasses that make up my bike. [Bicycle Rim](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/BicycleRim.cs) , [Bike Frame](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/BikeFrame.cs) , [Gear_And_Chain](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/Gear_And_Chain.cs) .
 
-- I made the latest operations for the Client in the Console application.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Program.cs).
+- The client will now be able to create objects from a single place by accessing a single Facade class, combining classes. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/Program.cs).
