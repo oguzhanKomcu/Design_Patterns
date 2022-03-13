@@ -28,7 +28,7 @@ We can use this pattern in the following situation. You have 2 different buildin
 
 - First of all, I created my operating systems. These are inherited from the [IRUN](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Bridge_Pattern/IRun.cs) interface. I created my pseudo-methods in my OS classes to run the incoming browser. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Structural_Patterns/Bridge_Pattern/OS).
 
--In order to make my browsers suitable for the desired operating system, it inherited from the [Convert](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Bridge_Pattern/Convert.cs). class and its constructor method took an object of type "IRUN". Later, I created a transform method.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Bridge_Pattern/Browser/GoogleChrome.cs).
+- In order to make my browsers suitable for the desired operating system, it inherited from the [Convert](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Bridge_Pattern/Convert.cs). class and its constructor method took an object of type "IRUN". Later, I created a transform method.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Bridge_Pattern/Browser/GoogleChrome.cs).
  
 - Finally, I completed my bridge process in the console application. Thus, thanks to the "Bridge Pattern" I applied, my browsers became operational in any desired operating system. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Bridge_Pattern/Program.cs).
 
