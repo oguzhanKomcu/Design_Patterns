@@ -14,6 +14,7 @@ The facade pattern is implemented when a segment of the client community needs a
 - Minimizes complexity of sub-systems	                
 - Aids principle of loose coupling	              
 - Software becomes more flexible and easily expandable	
+
 ## Disadvantages
 - Complex implementation (especially with existing code)
 - Approach is coupled to an additional level of indirection
@@ -32,8 +33,8 @@ The facade pattern is implemented when a segment of the client community needs a
 
 - The Facade class will not encapsulate subclasses. It will provide a simple interface to their functions. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/FacadeManufacturer.cs).
 
-- I created [SendNotification](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Adapter/SendNotification.cs) class to send. I will do all my sending operations with this class. The "Send()" method in this class accepts only [INotification](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Interface/INotification.cs) type objects.
+- I've created a class that combines subclasses.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/Bike_Builder.cs).
  
-- I wrote an adapter class named [PushNotificationAdepter](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Adapter/PushNotificationAdepter.cs) for the CustomerRecord class. This class takes a class of type [CustomerRecord](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Model/CustomerRecord.cs). from the outside and is made suitable for the "INotification" interface.
+-I created the subclasses that make up my bike. [Bicycle Rim](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/BicycleRim.cs) , [Bike Frame](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/BikeFrame.cs) , [Gear_And_Chain](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/Gear_And_Chain.cs) .
 
 - I made the latest operations for the Client in the Console application.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Program.cs).
