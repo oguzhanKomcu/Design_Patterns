@@ -1,5 +1,6 @@
 # COMPOSİTE PATTERN
 
+<img src="https://refactoring.guru/images/patterns/diagrams/composite/problem-en.png?id=3320d7ddc5bdc3e43752bb4393710794" width="500" height="400">
 
 
 The compound pattern provides the use of a group of objects that are different from each other as if they were a single whole object. The job of compound patterns is to combine objects into a tree structure and rearrange and shape the part-whole relationship throughout the application.
@@ -32,3 +33,14 @@ If the developer has to use a collection of objects of the same type or differen
 ## Diagram of my example I made.
 
 <img src="https://user-images.githubusercontent.com/96787308/158058192-63c4ec74-72a7-47df-b9e8-bad6d050c9c1.png" width="750" height="600">
+
+# How is it applied ?
+
+- It is the class that corresponds to the complex objects in the tree structure. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Composite__Pattern/EmployeeComposite.cs).
+
+- It is an abstract class that describes simple and complex objects in the tree structure and the common areas of these objects.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Composite__Pattern/Official.cs).
+ 
+- It is a single Component object, which is the most basic element in the tree structure and does not contain sub-breaks. That is, it refers to the simple object.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Composite__Pattern/SUB_AUTHORITY.cs).
+
+-I created a console application as a result of our design.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Composite__Pattern/Program.cs).
+
