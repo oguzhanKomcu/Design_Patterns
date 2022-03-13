@@ -24,7 +24,7 @@ In some cases, the interface of a toolkit or class library cannot be used becaus
 
 # How is it applied ?
 
--I created classes to receive "Email", "sms" and "CustomerRecord". While my "Email" and "sms" classes can inherit from the [INotification](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Interface/INotification.cs) interface, my "CustomerRecord" class did not inherit from the "INotification" interface because it did not do the same thing. Here I need to create an adapter class for it to do things collaboratively. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Structural_Patterns/Adapter_Pattern/Model).
+- I created classes to receive "Email", "sms" and "CustomerRecord". While my "Email" and "sms" classes can inherit from the [INotification](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Interface/INotification.cs) interface, my "CustomerRecord" class did not inherit from the "INotification" interface because it did not do the same thing. Here I need to create an adapter class for it to do things collaboratively. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Structural_Patterns/Adapter_Pattern/Model).
 
 - I created "SendNotification" class to send. I will do all my sending operations with this class. The "Send()" method in this class accepts only [INotification](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Interface/INotification.cs) type objects.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Adapter_Pattern/Adapter/SendNotification.cs).
  
