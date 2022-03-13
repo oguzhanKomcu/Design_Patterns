@@ -22,7 +22,7 @@ We can use this pattern in the following situation. You have 2 different buildin
 
 ## Diagram of my example I made.
 
-<img src="https://user-images.githubusercontent.com/96787308/158056843-9f4cc023-3cd3-40fe-8b90-66a03929c8f2.png" width="800" height="650">
+<img src="https://user-images.githubusercontent.com/96787308/158056843-9f4cc023-3cd3-40fe-8b90-66a03929c8f2.png" width="900" height="650">
 
 # How is it applied ?
 
