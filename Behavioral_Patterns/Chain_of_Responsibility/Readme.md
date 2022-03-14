@@ -29,8 +29,7 @@ The chain of responsibility pattern is used when we do not know which object sho
 
 - It defines an interface for handling the requests. Also, this can be an abstract class which will primarily receive the request and forward the request to chain of handlers.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Chain_of_Responsibility/ProblemSolverEmployeeBase.cs).
 
-- These classes are responsible for processing the requests they receive. If a particular class cannot fulfill the request, it sends the request to the other class.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Builder/TelephoneBuilder.cs).
+- These classes ([Master](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Chain_of_Responsibility/Master.cs) , [Journeyman](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Chain_of_Responsibility/Journeyman.cs) , [Apprentice](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Chain_of_Responsibility/Apprentice.cs) ) are responsible for handling the requests they receive. If a particular class cannot fulfill the request, it sends the request to the other class.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Builder/TelephoneBuilder.cs).
  
-- IBuilder provides the necessary interface for building the phone object. Notice that there is an inherited situation with the TelephoneBuilder object.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Builder_Pattern/Interface).
+- I would send a request to the first object in the chain that can process the command and run my design.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Chain_of_Responsibility/Program.cs).
 
-- As a result of our design, it responds to the object production request by the Client through a Builder reference.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Program.cs).
