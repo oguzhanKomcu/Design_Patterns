@@ -37,6 +37,6 @@ Let's say there are 4 buttons and each button does different operations. Instead
  
 - To run the target method, I created the ExecuteAll() procedure of the invoker object I created. The client will directly run the commands with this method in this class.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Command_Design_Pattern/InvokerFileOperations.cs).
 
--The client DI passes the command object to the invoker object so that it can execute the command.Execute() method from within the invoker.Execute() method.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Command_Design_Pattern/Program.cs).
+- The client DI passes the command object to the invoker object so that it can execute the command.Execute() method from within the invoker.Execute() method.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Command_Design_Pattern/Program.cs).
 
 
