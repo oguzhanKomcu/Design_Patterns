@@ -28,7 +28,7 @@ E.g ; The foreach loop is an iterative mechanism. As a matter of fact, we can ge
 
 # How is it applied ?
 
--It is the interface that requires the creation of an Iterator from an IIterator interface type to navigate through the dataset. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Iterator_Design_Pattern/ITransporter.cs).
+- It is the interface that requires the creation of an Iterator from an IIterator interface type to navigate through the dataset. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Iterator_Design_Pattern/ITransporter.cs).
 
 - This interface determines all the terms and signatures of navigating the dataset. In other words, it acts as an enumerator. Long story short, it defines the operations/controls/conditions/issues required so that we can retrieve the data/objects while looping through the dataset we have.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Iterator_Design_Pattern/Iterator.cs)
  
