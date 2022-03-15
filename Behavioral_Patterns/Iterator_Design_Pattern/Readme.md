@@ -32,8 +32,6 @@ E.g ; The foreach loop is an iterative mechanism. As a matter of fact, we can ge
 
 - This interface determines all the terms and signatures of navigating the dataset. In other words, it acts as an enumerator. Long story short, it defines the operations/controls/conditions/issues required so that we can retrieve the data/objects while looping through the dataset we have.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Iterator_Design_Pattern/Iterator.cs)
  
-- I created the subclasses that make up my bike. [Bicycle Rim](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/BicycleRim.cs) , [Bike Frame](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/BikeFrame.cs) , [Gear_And_Chain](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Structural_Patterns/Facade__Pattern/Gear_And_Chain.cs) .
-
 - The client will now be able to create objects from a single place by accessing a single Facade class, combining classes.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Iterator_Design_Pattern/ContactTransporter.cs)
 - It is the class that implements the Iterator interface, contains iteration methods and features, and undertakes the enumerator function that we mentioned above.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Iterator_Design_Pattern/Contact_Iterator.cs).
 - I can access the elements in the dataset using my design pattern according to the specified conditions.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Iterator_Design_Pattern/Program.cs).
