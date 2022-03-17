@@ -19,7 +19,7 @@ This pattern supports both single responsibility and open/closed SOLID principle
 
 # How is it applied ?
 
--It is the interface of the visitor classes that will host new functionalities in practice. All visitors derive from this interface, allowing us to inject multiple behaviors into real objects through dependency injection. [IVisitor](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Visitor_Design_Pattern/IVisitor.cs)
+- It is the interface of the visitor classes that will host new functionalities in practice. All visitors derive from this interface, allowing us to inject multiple behaviors into real objects through dependency injection. [IVisitor](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Visitor_Design_Pattern/IVisitor.cs)
 
 - They are tangible visitor objects that contain the required functionality. They derive from the Visitor interface. [GetIdVisitor](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Visitor_Design_Pattern/Classes/GetIdVisitor.cs)  [GetPriceVisitor](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Visitor_Design_Pattern/Classes/GetPriceVisitor.cs)
  
