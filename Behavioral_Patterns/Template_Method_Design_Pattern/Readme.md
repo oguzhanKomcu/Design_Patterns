@@ -15,7 +15,8 @@ The template method pattern belongs to the behavioral design patterns group. The
 
 # How is it applied ?
 
-- I created an interface for my Strategy classes. [IStrategy](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Strategy_Design_Pattern/IStrategy.cs)
+- Create my abstract class [Bank_Account](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Template_Method_Design_Pattern/Bank_Account.cs) which physically houses the sequential operations in the Template Method and algorithm.
+smoke. 
 
 - [StrategyImp](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Strategy_Design_Pattern/StrategyImp.cs). is our strategy class. The client will completely communicate with this class and the submitted arguments will be evaluated over this class.
  
