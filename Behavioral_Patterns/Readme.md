@@ -24,9 +24,9 @@ In real-time applications, sometimes we want to change the behavior of a class a
 
 - [Mediator](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Behavioral_Patterns/Mediator_Design_Pattern)
  
-- [Memento]soon
+- [Memento] soon
  
-- [Observer] soon
+- [Observer](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Behavioral_Patterns/Observer_Design_Pattern)
  
 - [State](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Behavioral_Patterns/State_Design_Pattern)
 
