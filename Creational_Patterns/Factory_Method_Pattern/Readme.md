@@ -13,7 +13,7 @@
 
 ## Diagram of my example I made.
 
-<img src="https://user-images.githubusercontent.com/96787308/158038958-9fdaeca0-e12e-4402-8a4f-0d4ddffc74e8.png" width="500" height="400">
+<img src="https://user-images.githubusercontent.com/96787308/158038958-9fdaeca0-e12e-4402-8a4f-0d4ddffc74e8.png" width="700" height="600">
 
 # How is it applied?
 
