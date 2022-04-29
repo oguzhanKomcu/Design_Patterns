@@ -1,6 +1,6 @@
 # BUILDER PATTERN
 
-<img src="https://www.enjoyalgorithms.com/static/builder-design-pattern-cover-2d281874fe0348630fa302a8aa8a2b73.jpg" width="600" height="300">
+<img src="https://refactoring.guru/images/patterns/content/builder/builder-en.png?id=617612423ea3752477dc90929115b3ee" width="600" height="300">
 
 # WHAT IS Builder Design Pattern ?
 
