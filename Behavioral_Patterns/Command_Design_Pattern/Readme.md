@@ -33,7 +33,7 @@ Let's say there are 4 buttons and each button does different operations. Instead
 
 - Every command should have a common interface. I created an ["ICommand"](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Command_Design_Pattern/ICommand.cs). interface for it.
 
-- I created my objects ( [Save](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Builder/TelephoneBuilder.cs), [Opening](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Builder/TelephoneBuilder.cs), [Closing](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Builder/TelephoneBuilder.cs) ) that will receive the order.
+- I created my objects ( [Save](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Builder/TelephoneBuilder.cs), [Opening](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Builder/TelephoneBuilder.cs), [Closing](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Creational_Patterns/Builder_Pattern/Builder/TelephoneBuilder.cs)) that will receive the order.
  
 - To run the target method, I created the ExecuteAll() procedure of the invoker object I created. The client will directly run the commands with this method in this class.[GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/blob/master/Behavioral_Patterns/Command_Design_Pattern/InvokerFileOperations.cs).
 
