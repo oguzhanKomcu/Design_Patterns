@@ -16,7 +16,7 @@ The main advantages of Builder Pattern are as follows:
 - It provides better control over construction process.
 - It supports to change the internal representation of objects.
 
-# UML model of Singleton Design Pattern
+# UML model of Builder Design Pattern
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMvIX23f9sJJBV0zBIuNqQJcghDd4omimkJg&usqp=CAU" width="500" height="300">
 
